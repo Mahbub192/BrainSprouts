@@ -4,6 +4,7 @@ import Banner from "./Banner/Banner";
 import GallerySection from "./GallerySection/GallerySection";
 import MostSellingProducts from "./MostSellingProducts/MostSellingProducts";
 import ShopByCategory from "./ShopByCategory/ShopByCategory";
+import CustomerFavorites from "./CustomerFavorites/CustomerFavorites";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <About></About>
+            <CustomerFavorites></CustomerFavorites>
             <GallerySection></GallerySection>
             <ShopByCategory></ShopByCategory>
             <MostSellingProducts></MostSellingProducts>
