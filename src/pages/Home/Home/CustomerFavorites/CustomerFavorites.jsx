@@ -8,7 +8,7 @@ import image from '../../../../assets/img/GallerySection/science2.jpg';
 const CustomerFavorites = () => {
   return (
     <div className="flex flex-wrap items-center md:mx-28">
-      <div className="w-1/2 mx-auto">
+      <div className="md:w-1/2 mx-auto">
         <TransformWrapper
           initialScale={1}
           initialPositionX={200}
@@ -24,7 +24,7 @@ const CustomerFavorites = () => {
                   Zoom in+
                 </button>
                 <button
-                  className="bg-error px-5 py-2 rounded-lg mx-5"
+                  className="bg-error px-5 py-2 rounded-lg mx-2 md:mx-5"
                   onClick={() => zoomOut()}
                 >
                   Zoom out -
@@ -43,7 +43,7 @@ const CustomerFavorites = () => {
           )}
         </TransformWrapper>
       </div>
-      <div className="w-1/2 pl-20">
+      <div className="md:w-1/2 pl-5 my-10 md:my-0 md:pl-20">
         <h1 className="text-xl md:text-2xl font-bold">Plastic Robert</h1>
         <p className="flex gap-1 text-orange-500 my-2">
           <FaStar></FaStar>

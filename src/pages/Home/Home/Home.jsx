@@ -6,6 +6,7 @@ import MostSellingProducts from "./MostSellingProducts/MostSellingProducts";
 import ShopByCategory from "./ShopByCategory/ShopByCategory";
 import CustomerFavorites from "./CustomerFavorites/CustomerFavorites";
 import SafeToy from "./SafeToy/SafeToy";
+import ToyPlace from "./ToyPlace/ToyPlace";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <CustomerFavorites></CustomerFavorites>
             <GallerySection></GallerySection>
             <SafeToy></SafeToy>
+            <ToyPlace></ToyPlace>
             <ShopByCategory></ShopByCategory>
             <MostSellingProducts></MostSellingProducts>
             
