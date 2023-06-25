@@ -5,6 +5,7 @@ import GallerySection from "./GallerySection/GallerySection";
 import MostSellingProducts from "./MostSellingProducts/MostSellingProducts";
 import ShopByCategory from "./ShopByCategory/ShopByCategory";
 import CustomerFavorites from "./CustomerFavorites/CustomerFavorites";
+import SafeToy from "./SafeToy/SafeToy";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <About></About>
             <CustomerFavorites></CustomerFavorites>
             <GallerySection></GallerySection>
+            <SafeToy></SafeToy>
             <ShopByCategory></ShopByCategory>
             <MostSellingProducts></MostSellingProducts>
             
