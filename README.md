@@ -2,16 +2,29 @@
 
 * Live link : https://toy-trove.web.app/
 
-* I am making this project science toy for kids. This project shows some toy information.
+Project Description: Science Toy Platform for Kids
 
-* As shown on the home page, if the user is logged in, then the user's profile will be displayed, which on hovering the mouse over the profile image will display the user's name. If there is no login then the login button is in the navbar, and on this page there are Home, All Toys, My Toys,Add A Toy, Blogs.
+The Science Toy project is an engaging and educational platform designed to provide information about various science toys for kids. The platform offers a range of features and functionalities to enhance the user experience. Below are the key components of the project:
 
-* The data of toy card is given from the link https://toy-server-phi.vercel.app/allToy, (I have created an app here for the server side, and uploaded that app to Vercel). react aos is used here (for loading toy card)
+Homepage:
 
-* There is a login registration page on this site, if the user wants, he can login by providing Google account and  also do it with email and password.
+The homepage provides a user-friendly interface with easy navigation. If the user is logged in, their profile is prominently displayed. Hovering over the profile image reveals the user's name. For users who are not logged in, a login button is available in the navigation bar. The homepage also features sections such as Home, All Toys, My Toys, and Blogs.
+Toy Data:
 
-* On the about All Toy page, show the all toy in a tabular format (TOY IMAGE , 	TOY NAMEe ,SUBcATEGORY, PRICE, AVAILABLE QUANTITY, SELLER NAME, VIEW). In the first state, 20 toys will be shown, and if more than 20, it will be shown as a page
+The toy data is sourced from the following link: https://toy-server-phi.vercel.app/allToy. This link connects to a server-side application hosted on Vercel. React AOS (Animate On Scroll) is implemented to ensure smooth loading of toy cards.
+Login and Registration:
 
-* My Toy page can see the user's own adding toys, if the user wants, then the toy list can be seen in ascending and descending form, and user can update toy information.
+The platform includes a login and registration page, offering users the flexibility to log in using their Google account or create an account using their email and password.
+All Toys Page:
 
-* Add A Toy page User can add new toys.
+The "All Toys" page showcases a comprehensive collection of toys in a tabular format. Each toy is accompanied by relevant information, including the toy image, toy name, subcategory, price, available quantity, seller name, and a "View" button. By default, the page displays 20 toys, with the option to navigate to subsequent pages if more than 20 toys are available.
+My Toys Page:
+
+The "My Toys" page allows users to view and manage the toys they have added to the platform. Users can choose to sort their toy list in ascending or descending order based on their preference. Additionally, users have the capability to update toy information as needed.
+Add A Toy Page:
+
+The "Add A Toy" page empowers users to contribute to the platform by adding new toys. Users can provide the necessary details about the toy, including its name, image, subcategory, price, and available quantity.
+Technologies Used:
+
+The project is built using cutting-edge technologies such as React, React Hook Form, Express, MongoDB, and Firebase. These technologies enable seamless development, efficient data management, and enhanced user interactions.
+The Science Toy project aims to provide an interactive and informative platform for kids, promoting their curiosity and interest in the fascinating world of science through engaging toys.
