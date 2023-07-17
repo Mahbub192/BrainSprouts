@@ -15,7 +15,7 @@ Login and Registration:
 * The platform includes a login and registration page, offering users the flexibility to log in using their Google account or create an account using their email and password.
   
 All Toys Page:
-*The "All Toys" page showcases a comprehensive collection of toys in a tabular format. Each toy is accompanied by relevant information, including the toy image, toy name, subcategory, price, available quantity, seller name, and a "View" button. By default, the page displays 20 toys, with the option to navigate to subsequent pages if more than 20 toys are available.
+* The "All Toys" page showcases a comprehensive collection of toys in a tabular format. Each toy is accompanied by relevant information, including the toy image, toy name, subcategory, price, available quantity, seller name, and a "View" button. By default, the page displays 20 toys, with the option to navigate to subsequent pages if more than 20 toys are available.
 
 My Toys Page:
 * The "My Toys" page allows users to view and manage the toys they have added to the platform. Users can choose to sort their toy list in ascending or descending order based on their preference. Additionally, users have the capability to update toy information as needed.
